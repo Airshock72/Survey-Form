@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images3.alphacoders.com/137/thumb-1920-137465.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: 'Indie Flower', sans-serif, monospace;
+    /* background-color: #05c46b; */
+    text-align: center;
+    margin: 0;
+}
+/*
+===================
+**HEADING**
+=================== 
+*/
+h1{
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+h1+p{
+    margin-top: 0;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+/*
+===================
+**FORM**
+=================== 
+*/
+form{
+    background-color:  #fff;
+    box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.7);
+    max-width: 450px;
+    margin: 40px auto;
+    border-radius: 3px;
+    padding:30px 20px;
+    background-color: rgb(71, 70, 70);
+}
+.form-control{
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 600;
+}
+.form-control label{
+    display:block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color:white;
+}
+.form-control input, 
+.form-control select,
+.form-control textarea{
+    border:1px solid #777;
+    display:block;
+    width:100%;
+    padding:5px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: inherit;
+}
+.form-control select{
+    height: 30px;
+}
+.form-control input[type="radio"],
+.form-control input[type="checkbox"]{
+    display:inline-block;
+    width: auto;
+}
+button{
+    background-color: #05c46b;
+    display:block;
+    width: 100%;
+    padding: 10px;
+    font-family: inherit;
+    font-weight: 700;
+    border-radius: 5px;
+    text-transform: uppercase;
+    border: 2px solid  #05c46b;
+    font-size: 16px;
+}
